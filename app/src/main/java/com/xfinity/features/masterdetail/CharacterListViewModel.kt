@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit
 class CharacterListViewModel(private val dataManager: DataManager) : ViewModel() {
     var showIcon: Boolean = false
     private val disposables: CompositeDisposable = CompositeDisposable()
-    val responseLiveData: MutableLiveData<List<RelatedTopic>> = MutableLiveData()
+    //val responseLiveData: MutableLiveData<List<RelatedTopic>> = MutableLiveData()
     val queryLiveData: MutableLiveData<CharSequence> = MutableLiveData()
 
     val loadingVisibility: MutableLiveData<Int> = MutableLiveData()

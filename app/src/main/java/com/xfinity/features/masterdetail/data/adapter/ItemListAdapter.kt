@@ -64,11 +64,11 @@ class ItemListAdapter : RecyclerView.Adapter<ItemListAdapter.ItemViewHolder>() {
     }
 
     class ItemViewHolder(private val binding: ItemDetailBinding) : RecyclerView.ViewHolder(binding.root) {
-        private val viewModel = CharacterViewModel()
+        private val characterViewModel = CharacterViewModel()
 
         fun bind(character: RelatedTopic) {
-            viewModel.bind(character)
-            binding.viewModel = viewModel
+            characterViewModel.bind(character)
+            binding.viewModel = characterViewModel
         }
     }
 }

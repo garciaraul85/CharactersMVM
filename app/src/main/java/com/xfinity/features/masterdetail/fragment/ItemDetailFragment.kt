@@ -80,5 +80,4 @@ class ItemDetailFragment : Fragment() {
         const val ITEM = "item"
         const val ICON = "icon"
     }
-
 }

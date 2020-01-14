@@ -54,14 +54,14 @@ class Main2Activity : AppCompatActivity(), UserAdapter.OnItemClicked {
         viewModel.initList()
         binding.viewModel = viewModel
 
-        characterViewModel.responseLiveData.observe(this, Observer<List<RelatedTopic>> {
+        /*characterViewModel.responseLiveData.observe(this, Observer<List<RelatedTopic>> {
             if (it != null) {
                 viewModel.startUpdates(it)
                 //adapter.setData(it)
             }
         })
 
-        characterViewModel.loadCharacters(query)
+        characterViewModel.loadCharacters(query)*/
     }
 
 

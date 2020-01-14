@@ -3,7 +3,6 @@ package com.xfinity.injection.module
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import com.xfinity.features.masterdetail.fragment.ItemListFragment
 import com.xfinity.injection.ApplicationContext
 
 import com.xfinity.util.PreferenceHelper
